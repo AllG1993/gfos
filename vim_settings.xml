@@ -1,0 +1,185 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Dummy.txt" timestamp="1537720811693">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Py — копия/requirements.txt" timestamp="1537733029990">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1537720876496">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Py — копия/bot.py" timestamp="1537729732256">
+        <mark key="[" line="23" column="4" />
+        <mark key="]" line="23" column="4" />
+        <mark key="." line="23" column="4" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/untitled/123.py" timestamp="1537713457959">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Py/bot.py" timestamp="1537719074681">
+        <mark key="[" line="8" column="17" />
+        <mark key="]" line="13" column="22" />
+        <mark key="." line="13" column="22" />
+        <mark key="^" line="13" column="22" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Py — копия/Procfile" timestamp="1537733330210">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="1" type="4">
+        <text encoding="base64">ICAgIGlmICJTRCIgaW4gbWVzc2FnZS50ZXh0OgogICAgICAgIGJvdC5yZXBseV90byhtZXNzYWdlLCAiU0Qg7e737ejq7uI6IGh0dHBzOi8vZ29vLmdsL0pFY0dXaSIpCiAgICAgICAgcmV0dXJu</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>echo_digits</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">CkBib3QubWVzc2FnZV9oYW5kbGVyKGNvbnRlbnRfdHlwZXM9WyJzdGlja2VyIl0pCmRlZiBzdGlja2VyX2hhbmRsZXIgKG1lc3NhZ2U6IE1lc3NhZ2UpOgogICAgcHJpbnQobWVzc2FnZSkKICAgIHByaW50KG1lc3NhZ2Uuc3RpY2tlcik=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">QGJvdC5tZXNzYWdlX2hhbmRsZXIoY29udGVudF90eXBlcz1bInRleHQiXSkK</text>
+      </register>
+      <register name="4" type="4">
+        <text>import random
+import telebot
+from telebot.types import Message
+TOKEN = &quot;641935193:AAFsCdiQzuTorp3oqAiguM54GpbNYgTAMCk&quot;
+
+bot = telebot.TeleBot(TOKEN)
+
+@bot.message_hendler(content_types=[&quot;&quot;])</text>
+      </register>
+      <register name="5" type="4">
+        <text>@bot.message_handler(func=test_message, content_types=['document'])
+def handle_text_doc(message)
+	pass</text>
+      </register>
+      <register name="6" type="4">
+        <text>@bot.message_handler(content_types=[&quot;text&quot;])
+
+def echo_digits(message: Message):
+    bot.reply_to(message, str(random.random()))</text>
+      </register>
+      <register name="7" type="4">
+        <text>bot = telebot.TeleBot(config.token)
+
+@bot.message_handler(commands=[&quot;help&quot;])
+def hendler_text(massage):
+    bot.send_message(massage.chat.id, &quot;&quot;&quot;По правде говоря, я пока нихуя не умею. Кто бы мне помог, братан? Я толко две буквы знаю.&quot;&quot;&quot;)
+
+@bot.message_handler(content_types=[&quot;text&quot;])
+def hendler_text(massage):
+    if massage.text == &quot;а&quot;:
+        bot.send_message(massage.chat.id, &quot;б&quot;)
+    elif massage.text == &quot;в&quot;:
+        bot.send_message(massage.chat.id, &quot;г&quot;)
+    else:
+        bot.send_message(massage.chat.id, &quot;Ты не умеешь играть в эту игру.&quot;)
+
+
+bot.polling(none_stop=True, interval=0)</text>
+      </register>
+      <register name="-" type="4">
+        <text>echo_digits</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed B</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed W</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed M</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed N</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Y</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed O</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed P</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed E</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed OPEN_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed Q</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed 2</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed G</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed H</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed CLOSE_BRACKET</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>shift ctrl pressed 6</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed I</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
