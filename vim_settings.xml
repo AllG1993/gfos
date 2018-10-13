@@ -3,11 +3,16 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="/Dummy.txt" timestamp="1539438522402">
+      <file name="/Dummy.txt" timestamp="1539438580601">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/Desktop/Py — копия/requirements.txt" timestamp="1537733029990">
         <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Py/scratch.json" timestamp="1539438808870">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="/Python Console" timestamp="1539438433161">
         <mark key="[" line="0" column="0" />
@@ -20,14 +25,19 @@
       <file name="$USER_HOME$/PycharmProjects/untitled/123.py" timestamp="1537713457959">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/App/Kivy App.py" timestamp="1539438047787">
+      <file name="$USER_HOME$/PycharmProjects/App/Kivy App.py" timestamp="1539438589686">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/Desktop/Py/bot.py" timestamp="1537719074681">
-        <mark key="[" line="8" column="17" />
-        <mark key="]" line="13" column="22" />
-        <mark key="." line="13" column="22" />
-        <mark key="^" line="13" column="22" />
+      <file name="$USER_HOME$/Desktop/Py/config.py" timestamp="1539438735057">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/Desktop/Py/bot.py" timestamp="1539438817898">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+        <mark key="^" line="0" column="22" />
       </file>
       <file name="$USER_HOME$/Desktop/Py — копия/Procfile" timestamp="1537733330210">
         <mark key="[" line="0" column="0" />
@@ -36,18 +46,21 @@
     <jumps />
     <registers>
       <register name="1" type="4">
-        <text encoding="base64">ICAgIGlmICJTRCIgaW4gbWVzc2FnZS50ZXh0OgogICAgICAgIGJvdC5yZXBseV90byhtZXNzYWdlLCAiU0Qg7e737ejq7uI6IGh0dHBzOi8vZ29vLmdsL0pFY0dXaSIpCiAgICAgICAgcmV0dXJu</text>
+        <text encoding="base64">CmltcG9ydCByYW5kb20KaW1wb3J0IHRlbGVib3QKZnJvbSB0ZWxlYm90LnR5cGVzIGltcG9ydCBNZXNzYWdlClRPS0VOID0gIjY0MTkzNTE5MzpBQUZzQ2RpUXp1VG9ycDNvcUFpZ3VNNTRHcGJOWWdUQU1DayIKCmJvdCA9IHRlbGVib3QuVGVsZUJvdChUT0tFTikKCkBib3QubWVzc2FnZV9oYW5kbGVyKGNvbnRlbnRfdHlwZXM9WyJ0ZXh0Il0pCgpkZWYgZWNob19kaWdpdHMobWVzc2FnZTogTWVzc2FnZSk6CiAgICBib3QucmVwbHlfdG8obWVzc2FnZSwgc3RyKHJhbmRvbS5yYW5kb20oKSkpCgpib3QucG9sbGluZyh0aW1lb3V0PTYwKQ==</text>
       </register>
       <register name="&quot;" type="4">
-        <text>echo_digits</text>
+        <text>[</text>
       </register>
       <register name="2" type="4">
+        <text encoding="base64">ICAgIGlmICJTRCIgaW4gbWVzc2FnZS50ZXh0OgogICAgICAgIGJvdC5yZXBseV90byhtZXNzYWdlLCAiU0Qg7e737ejq7uI6IGh0dHBzOi8vZ29vLmdsL0pFY0dXaSIpCiAgICAgICAgcmV0dXJu</text>
+      </register>
+      <register name="3" type="4">
         <text encoding="base64">CkBib3QubWVzc2FnZV9oYW5kbGVyKGNvbnRlbnRfdHlwZXM9WyJzdGlja2VyIl0pCmRlZiBzdGlja2VyX2hhbmRsZXIgKG1lc3NhZ2U6IE1lc3NhZ2UpOgogICAgcHJpbnQobWVzc2FnZSkKICAgIHByaW50KG1lc3NhZ2Uuc3RpY2tlcik=</text>
       </register>
-      <register name="3" type="2">
+      <register name="4" type="2">
         <text encoding="base64">QGJvdC5tZXNzYWdlX2hhbmRsZXIoY29udGVudF90eXBlcz1bInRleHQiXSkK</text>
       </register>
-      <register name="4" type="4">
+      <register name="5" type="4">
         <text>import random
 import telebot
 from telebot.types import Message
@@ -57,18 +70,18 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_hendler(content_types=[&quot;&quot;])</text>
       </register>
-      <register name="5" type="4">
+      <register name="6" type="4">
         <text>@bot.message_handler(func=test_message, content_types=['document'])
 def handle_text_doc(message)
 	pass</text>
       </register>
-      <register name="6" type="4">
+      <register name="7" type="4">
         <text>@bot.message_handler(content_types=[&quot;text&quot;])
 
 def echo_digits(message: Message):
     bot.reply_to(message, str(random.random()))</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>bot = telebot.TeleBot(config.token)
 
 @bot.message_handler(commands=[&quot;help&quot;])
@@ -88,7 +101,7 @@ def hendler_text(massage):
 bot.polling(none_stop=True, interval=0)</text>
       </register>
       <register name="-" type="4">
-        <text>echo_digits</text>
+        <text>[</text>
       </register>
     </registers>
     <search>
